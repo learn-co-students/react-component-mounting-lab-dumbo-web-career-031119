@@ -42,9 +42,9 @@ cursor focus, or creating an interval or timeout.
 
 The App component is keeping track of timers using an array of random ID
 numbers. This allows for easy removal and addition of Timer components.
-
+<!-- 
 In App, write a `componentDidMount` method that invokes the existing
-`handleAddTimer` class method.
+`handleAddTimer` class method. -->
 
 **Note:** When writing lifecycle methods, avoid using arrow functions - while
 they may work in browser, we want these methods to exist on the prototype chain
@@ -76,8 +76,8 @@ variable within the scope of our class:
 this.interval = setInterval(...)
 ```
 
-Write a `componentDidMount` that initializes an interval. Pass `clockTick` as
-the callback function and set it to `1000` to update every second.
+<!-- Write a `componentDidMount` that initializes an interval. Pass `clockTick` as
+the callback function and set it to `1000` to update every second. -->
 
 Once this is working, in our application, when a new timer is added, we should
 see the displayed number increase every second!
@@ -96,11 +96,11 @@ local variable:
 clearInterval(this.interval);
 ```
 
-Write a `componentWillUnmount` method in Timer that cleans up the interval you've
+<!-- Write a `componentWillUnmount` method in Timer that cleans up the interval you've
 created.
 
 Run `learn` to confirm you've passed the tests for adding `componentDidMount`
-and `componentWillUnmount` to both App and Timer.
+and `componentWillUnmount` to both App and Timer. -->
 
 ## Conclusion
 
